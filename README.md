@@ -1,69 +1,66 @@
-# nuxtjs-storefront
+## Vue js storefront medusa
 
-## Build Setup
+## About
 
+### Participants
+myudak - @myudak
+
+## Set up Project
+
+### Prerequisites
+Before you start with the tutorial make sure you have
+
+- [Node.js](https://nodejs.org/en/) v14 or greater installed on your machine
+- [VMS-medusa-admin](https://github.com/myudak/vmsMedusa-admin) run `npm install;npm start`
+- [VMS-medusa-server](https://github.com/myudak/vmsMedusa-server) run `npm install;npm install -g @medusajs/medusa;medusa develop`
+- [VMS-minIO](https://github.com/myudak/vmsMinIO) download [minIO](https://min.io/docs/minio/windows/index.html) place it in parent directory run `cd ..;./minio.exe server "path directory" --address :6900 --console-address :9090`
+
+### Install Project
+
+1. Clone the repository:
 ```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
+git clone https://github.com/myudak/vms-storefront
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+2. Change directory and install dependencies:
+```bash
+cd vms-storefront
+npm install
+```
+3.  Start the app
+```bash
+npm run dev
+```
 
-## Special Directories
+4. goto minIO page in `127.1.1:9090`:
+![image](https://user-images.githubusercontent.com/69108782/194758258-2b41b42f-8b69-4ec3-96bf-30a022120064.png)
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+5. login with username and pass:
+```bash
+minioadmin
+```
+6. goto manage -> make accsess policy public
+<br/>
 
-### `assets`
+![Untitled video - Made with Clipchamp](https://user-images.githubusercontent.com/69108782/194758492-d235dc80-043a-41f4-b758-371db7f28fef.gif)
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+<br>
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+7. goto identitiy -> service account -> create service account -> make the accsess key and the secret key :
 
-### `components`
+```bash
+ZfP0iiPrIndoL07v
+```
+```bash
+Zetmnu1NVuJHeia887gJ8KeaRh6ULUaF
+```
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+![Untitled video - Made with Clipchamp (1)](https://user-images.githubusercontent.com/69108782/194758995-d263cf1e-d124-499c-89a3-26f6007e4eb5.gif)
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+finish and see the web on 
+```
+http://localhost:8000/
+```
 
 
-### `pages`
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
