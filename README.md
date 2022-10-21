@@ -1,22 +1,8 @@
-<h1 align="center">
-  VMS Storefront
-</h1>
+# VMS Storefront
 
-<div style="display:flex;justify-content:center;align-items:center">
-<div>
-    <img alt="Plus" style="margin-right:18px" src="https://user-images.githubusercontent.com/75976169/197110145-a10e636f-ba10-4bed-aa45-83ff41222159.png" width="63" />
-</div>
+![VMS Storefront](https://user-images.githubusercontent.com/75976169/197153548-e2aeadc3-854f-4114-b6e8-790994c11880.png)
 
-<div>
-    <img alt="Plus" src="https://user-images.githubusercontent.com/75976169/197108692-5048d15b-1b8d-4bf8-ab3f-83d9db689580.png" width="40" />
-</div>
-
-<a href="https://www.medusa-commerce.com">
-    <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
-</a>
-</div>
-
-<p align="center">A storefront built using <strong>MedusaJS</strong> +  <strong>VueJS</strong></p>
+<h4 align="center">A storefront built using <strong>VueJS</strong> + <strong>MedusaJS</strong></h4>
 
 ### Preview
 
