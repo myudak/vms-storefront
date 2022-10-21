@@ -16,6 +16,10 @@ myudak - [@myudak](https://github.com/myudak)
 
 Rohit Tewari - [@rtewari056](https://github.com/rtewari056)
 
+Kailash Choudhary - [@kailashchoudhary11](https://github.com/kailashchoudhary11)
+
+Satyam Sagar - [@satyamrs00](https://github.com/satyamrs00)
+
 ## Set up Project
 
 ### Prerequisites
